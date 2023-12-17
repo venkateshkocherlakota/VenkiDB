@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="FileSystem\" />
+    <None Remove="FileSystem\Interfaces\" />
+    <None Remove="Core\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="FileSystem\" />
+    <Folder Include="FileSystem\Interfaces\" />
+    <Folder Include="Core\" />
+  </ItemGroup>
+</Project>
